@@ -2,7 +2,7 @@
     Layout = "_ColumnsOne";
 
     //page class
-    Html.AppendPageCssClassParts("html-home-page");
+            Html.AppendPageCssClassParts("html-home-page");
 }
 <div class="page home-page">
     <div class="page-body">
@@ -16,8 +16,8 @@
         @await Component.InvokeAsync("HomepageBestSellers")
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeNews })
         @await Component.InvokeAsync("HomepageNews")
-        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforePoll })
-        @await Component.InvokeAsync("HomepagePolls")
+        @*@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforePoll })
+        @await Component.InvokeAsync("HomepagePolls")*@
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBottom })
     </div>
 </div>

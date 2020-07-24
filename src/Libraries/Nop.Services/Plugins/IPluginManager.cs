@@ -53,7 +53,16 @@ namespace Nop.Services.Plugins
         bool IsPluginActive(TPlugin plugin, List<string> systemNames);
 
         /// <summary>
-        /// Get plugin logo URL
+        /// Get plugin 
+        /// 
+        /// 
+        /// 
+        /// 
+        /// 
+        /// 
+        /// 
+        /// 
+        /// URL
         /// </summary>
         /// <param name="plugin">Plugin</param>
         /// <returns>Logo URL</returns>

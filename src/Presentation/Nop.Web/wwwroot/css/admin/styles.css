@@ -730,13 +730,13 @@ input[type="text"].k-input {
 .main-header .logo {
     padding: 0;
 }
-.main-header .logo-lg {
+  .main-header .logo-lg {
     background: url(images/logo.png) no-repeat 50% 50%;
     height: 50px;
     background-size: contain;
     background-origin: content-box;
     padding: 0 10px;
-}
+  }
 .main-header .logo-mini {
     background: url(images/logo-mini.png) no-repeat 50% 50%;
     height: 50px;
