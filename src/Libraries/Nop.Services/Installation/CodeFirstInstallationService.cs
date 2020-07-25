@@ -11281,7 +11281,7 @@ namespace Nop.Services.Installation
             var poll1 = new Poll
             {
                 LanguageId = defaultLanguage.Id,
-                Name = "Do you like nopCommerce?",
+                Name = "Do you like OnlineCommerce?",
                 SystemKeyword = string.Empty,
                 Published = true,
                 ShowOnHomepage = true,
